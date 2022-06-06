@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+button {
+  overflow-wrap: break-word;
+}
+
+.btn-nav {
+  background-color: #ff9065;
+  color: white;
+  height: 40px;
+  width: 100px;
+
+}
+
+.btn-nav:hover {
+  background-color: #f37149;
+  color: white;
+}
+
+.btn-navLog {
+  background-color: #ff3b1f;
+  color: white;
+  height: 40px;
+  width: 100px;
+}
+
+.btn-navLog:hover {
+  background-color: #df0000;
+  color: white;
+}
+
+.btn-producto {
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  height: 90px;
+  width: 90px;
+}
+
+.btn-producto:hover {
+  background-color: #666666;
+  color: white;
+  text-align: center;
+}
+
+.btn-mensaje {
+  background-color: #32cd32;
+  color: white;
+  height: 40px;
+  width: 100px;
+
+}
+
+.btn-mensaje:hover {
+  background-color: #00ac00;
+  color: white;
+
+}
+
+.btn-Mesas {
+  background-color: #ff7529;
+  color: white;
+  height: 40px;
+  width: 100px;
+
+}
+
+.btn-ticket:hover {
+  background-color: #dc3800;
+  color: white;
+
+}
+
+.btn-cobro {
+  background-color: #ff3d70;
+  color: white;
+  height: 40px;
+  width: 100px;
+
+}
+
+.btn-cobro:hover {
+  background-color: #e00043;
+  color: white;
+
+}
+
+.btn-marchar {
+  background-color: #ffaa00b0;
+  color: black;
+  height: 40px;
+  width: 100px;
+
+}
+
+.btn-marchar:hover {
+  background-color: #e09500b0;
+  color: black;
+
+}
+
+.btn-mesa {
+  background-color: #ffff52;
+  color: black;
+  height: 40px;
+  width: 100px;
+}
+
+.btn-mesa:hover {
+  background-color: rgb(202, 202, 64);
+
+}
+.btn-numMesa {
+  background-color: #52b4ff;
+  color: white;
+  height: 40px;
+  width: 100px;
+}
+.btn-numMesa:hover {
+  background-color: #2ba3fe;
+  color: white;
+
+}
+
+.scrollPedidos {
+  overflow-y: scroll;
+  max-height: 80vh;
+}
+
+.scrollProductos {
+  overflow-y: scroll;
+  max-height: 80vh;
+}
+
+.scrollMesasAbiertas {
+  overflow-y: scroll;
+  max-height: 40vh;
+}
+
+.btnFooter {
+  margin-top: 5px;
+}
+
+.btnproducto {
+  background-color: #00ac00;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  height: 20px;
+  width: 130px;
+}
+
+.btn-info {
+
+  background-color: #3378f9;
+  color: white;
+  height: 40px;
+  width: 100px;
+}
+
+.btn-info:hover {
+  background-color: #0056f5;
+  color: white;
+
+}
+
+.footer-btns {
+  position: absolute;
+  bottom: 5vh;
+  padding-left: 20vh;
+
+}
+
+.btns-productos {
+  height: 25vh;
+  width: 25vh;
+  margin-top: 2vh;
+  text-align: center;
+  font-size: 3vh;
+
+}
+
+@media only screen and (min-height: 300px) {
+  .btns-productos {
+    font-size: 8px;
+    height: 20vh;
+    width: 20vh;
+  }
+
+  .btn-info {
+    text-align: center;
+    font-size: 10px;
+    height: 35px;
+    width: 100px;
+  }
+
+  .scrollPedidos {
+    max-height: 33vh;
+  }
+
+  .scrollProductos {
+    max-height: 45vh;
+  }
+}
+
+@media only screen and (min-height: 600px) {
+  .scrollPedidos {
+    max-height: 48vh;
+  }
+
+  .scrollProductos {
+    max-height: 60vh;
+  }
+
+  .btn-info {
+    text-align: center;
+    font-size: 10px;
+    height: 40px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-height: 700px) {
+  .scrollPedidos {
+    max-height: 58vh;
+  }
+
+  .scrollProductos {
+    max-height: 70vh;
+  }
+
+  .btns-productos {
+    font-size: 2vh;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-height: 900px) {
+  .scrollPedidos {
+    max-height: 63vh;
+  }
+
+  .scrollProductos {
+    max-height: 75vh;
+  }
+
+  .btns-productos {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-height: 1200px) {
+  .scrollPedidos {
+    max-height: 78vh;
+  }
+
+  .scrollProductos {
+    max-height: 90vh;
+  }
+
+}
+
+@media only screen and (min-height: 1400px) {
+  .scrollPedidos {
+    max-height: 98vh;
+  }
+
+  .scrollProductos {
+    max-height: 110vh;
+  }
+}
+
+
+@media only screen and (min-width: 300px) {
+
+  .btnproducto {
+    font-size: 10px;
+    height: 20px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .btnproducto {
+    text-align: center;
+    font-size: 10px;
+    height: 20px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .btnproducto {
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+  }
+}
